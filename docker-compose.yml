@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  flask_code:
+    image: flask_code
+    build: .
+    ports:
+      - 5000:5000
